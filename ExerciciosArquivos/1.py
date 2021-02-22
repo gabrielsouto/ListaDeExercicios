@@ -64,3 +64,5 @@ if os.path.exists("1.txt"):
                 arquivo_relatorio.write(invalido+"\n")
         
         arquivo_relatorio.close()
+else:
+    print("O arquivo 1.txt com a lista de ips não existe")
